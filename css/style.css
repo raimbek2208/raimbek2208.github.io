@@ -1,0 +1,52 @@
+body{margin:0%;padding:0%;}
+			.shapka{width:100%;}
+			.logo{margin-left:5%;margin-top:2%;display:inline-block;width:15%;}
+			.icons{display:inline-block;width:20%;vertical-align:top;padding-top:3%;margin-left:50%;}
+.icons a img {
+    width:20%;
+}
+			.nav{text-align:center;font-size:1.5vw;}
+			.menu{
+                list-style-type:none;
+                  border-top:1px solid black;
+                  border-bottom:1px solid black;
+
+			}
+			.menu li{display:inline-block;padding:1%;border-right:1px solid black;transition:2s ease-out;}
+            .menu li ul li{
+                display:none;
+            }
+            .menu li:hover>ul li {
+                display:block;
+            }
+			.menu li a{text-decoration:none;color:black;display:block;}
+			.menu li:hover{background:rgb(26,168,230);color:white;}
+            .kartinka{
+                width:30%;
+                display:inline-block;
+                vertical-align:top;
+                
+            }
+            .kartinka img{
+                width:100%;
+            }
+            .text{
+                width:55%;
+                font-size:1vw;
+                display:inline-block;
+                
+            }
+            .con{
+                display:inline-block;
+                width:39%;
+                margin-left:10%;
+            }
+            hr{
+                width:50%;
+                text-align:center;
+                font-size:1.5vw;
+                color:bisque;
+            }
+            .people{
+background:gray; text-align:center; display:inline-block; width: 20%;
+            }
